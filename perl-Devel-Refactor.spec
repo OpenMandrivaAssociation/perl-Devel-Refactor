@@ -3,13 +3,13 @@
 
 Name:		perl-%{upstream_name}
 Version:	%{upstream_version}
-Release:	6
+Release:	1
 
 Summary:	The *Devel::Refactor* module is for code refactoring
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/dist/Devel-Refactor
-Source0:	https://cpan.metacpan.org/authors/id/S/SS/SSOTKA/Devel-Refactor-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/S/SS/SSOTKA/Devel-Refactor-0.05.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -41,15 +41,3 @@ perl Makefile.PL INSTALLDIRS=vendor
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
 
-%changelog
-* Sat Apr 16 2011 Funda Wang <fwang@mandriva.org> 0.50.0-2mdv2011.0
-+ Revision: 653409
-- rebuild for updated spec-helper
-
-* Sat Sep 26 2009 Jérôme Quelin <jquelin@mandriva.org> 0.50.0-1mdv2011.0
-+ Revision: 449447
-- import perl-Devel-Refactor
-
-
-* Sat Sep 26 2009 cpan2dist 0.05-1mdv
-- initial mdv release, generated with cpan2dist

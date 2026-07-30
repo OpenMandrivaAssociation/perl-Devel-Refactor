@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	0.05
-Release:	2
+Release:	3
 
 Summary:	The *Devel::Refactor* module is for code refactoring
 License:	GPL+ or Artistic
